@@ -30,7 +30,8 @@ It uses a camera to capture the image, highlights areas of interest, and automat
    - pygame
    - pyautogui
    - keyboard
-<br>
+
+
    ```bash
         pip install opencv-python numpy pygame pyautogui keyboard
    ```
