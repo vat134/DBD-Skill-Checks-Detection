@@ -50,6 +50,8 @@ It uses a camera to capture the image, highlights areas of interest, and automat
 
 ## Tech part
 ```bash
+V6.2
+
 More FPS (120), filters and logick for colors, optimization, delete yellow color. 
 
 Best Options:
