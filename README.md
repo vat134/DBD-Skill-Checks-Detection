@@ -36,6 +36,12 @@ It uses a camera to capture the image, highlights areas of interest, and automat
         pip install opencv-python numpy pygame pyautogui keyboard
    ```
 2. Connect your camera from OBS and make sure it works.
+   
+OBS overview:
+<img width="1130" height="789" alt="изображение" src="https://github.com/user-attachments/assets/6b37f005-160c-4f8e-b0e2-8971dd134f22" />
+Filter:
+<img width="861" height="758" alt="изображение" src="https://github.com/user-attachments/assets/16644fa6-b9bc-462c-9af8-fec6ae75331d" />
+   
 3. Run the script
 4. Use the P key to enable/disable the script.
 5. Press Alt + P to exit.
