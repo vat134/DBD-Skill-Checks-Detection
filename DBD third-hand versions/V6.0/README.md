@@ -1,5 +1,5 @@
 # DBD Skill Checks Detection — README
-/*README for a V6.2/*
+\*README for a V6.2\*
 
 ## Description
 This script is designed for automatic detection and reaction to “white zones” (skill checks) in the game Dead by Daylight using computer vision.
