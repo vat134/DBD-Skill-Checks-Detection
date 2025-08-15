@@ -5,6 +5,14 @@
 This script is designed for automatic detection and reaction to “white zones” (skill checks) in the game Dead by Daylight using computer vision.
 It uses a camera to capture the image, highlights areas of interest, and automatically presses a key if the cursor overlaps a stable white zone.
 
+## Author's Note
+With the right settings, almost all skill check actions are performed, and I don't even have to worry about it. 
+V6.2 It produces better results than I do, which is why I started writing this code.
+My observations:
+- perfect skill check 80%
+- simple skill check 15%
+- failure/error 5%
+
 ## How It Looks
 
 <img width="638" height="388" alt="изображение" src="https://github.com/user-attachments/assets/07c30ff3-7f20-4fd8-b977-9f22db716098" />
