@@ -8,7 +8,11 @@ It uses a camera to capture the image, highlights areas of interest, and automat
 ## How It Looks
 
 <img width="638" height="388" alt="изображение" src="https://github.com/user-attachments/assets/07c30ff3-7f20-4fd8-b977-9f22db716098" />
-<img width="639" height="390" alt="изображение" src="https://github.com/user-attachments/assets/56d51b79-2d78-4eba-a064-3547d43d404c" />
+<img width="604" height="369" alt="изображение" src="https://github.com/user-attachments/assets/77886aa4-7639-4ffb-9d00-9082d8b7140c" />
+<img width="603" height="368" alt="изображение" src="https://github.com/user-attachments/assets/2c6facce-96dd-4f34-a362-e1c9199ec15e" />
+![11](https://github.com/user-attachments/assets/586dc8bf-dd16-4777-bdc1-1436f2c82204)
+![22](https://github.com/user-attachments/assets/db8ee65e-2aeb-40f7-9831-8957a5f50ba3)
+![33](https://github.com/user-attachments/assets/30f47349-713a-4154-b02d-d273644c251f)
 
 
 ## Key Features
