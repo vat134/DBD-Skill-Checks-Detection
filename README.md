@@ -1,6 +1,12 @@
 # DBD Skill Checks Detection — README
 \*README for a V6.2\*
 
+## Disclaimer
+
+This project is intended for research and educational purposes in the field of python computer vision can help in video games.
+
+Using it may violate game rules and trigger anti-cheat detection. The author is not responsible for any consequences resulting from its use, this includes bans or any other unspecified violations. Use at your own risk.
+
 ## Description
 This script is designed for automatic detection and reaction to “white zones” (skill checks) in the game Dead by Daylight using computer vision.
 It uses a camera to capture the image, highlights areas of interest, and automatically presses a key if the cursor overlaps a stable white zone.
