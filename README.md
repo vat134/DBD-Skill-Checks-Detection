@@ -1,4 +1,4 @@
-<img width="640" height="389" alt="изображение" src="https://github.com/user-attachments/assets/c984ed04-6b24-466f-8b04-10bbda3cd6e1" /># DBD Skill Checks Detection — README
+# DBD Skill Checks Detection — README
 \*README for a V6.2\*
 
 ## Disclaimer
