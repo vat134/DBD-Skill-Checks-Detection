@@ -3,6 +3,7 @@ import numpy as np
 import pyautogui
 from collections import deque
 import time
+from datetime import datetime
 import keyboard
 import os
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "1" # Hide pygame init message
@@ -81,6 +82,7 @@ cap.set(cv2.CAP_PROP_FRAME_WIDTH, FRAME_WIDTH)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, FRAME_HEIGHT)
 
 print("Script started. Press 'P' to toggle, 'Alt+P' to exit.")
+print("Don't forget OBS!!!!")
 
 # ===================================================================== #
 #                          SOUND FUNCTION                               #
@@ -131,6 +133,12 @@ while True:
     if keyboard.is_pressed('p'):
         script_enabled = not script_enabled
         beep_toggle(script_enabled)
+
+        # Active status for console
+        current_time_for_console = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        status = "on" if script_enabled else "off"
+        print(f"Script is {status} в {current_time_for_console}")
+
         time.sleep(0.3) # Debounce to prevent rapid toggling
 
     # ------------------------- Cursor Detection (Red) ------------------------ #
@@ -251,7 +259,7 @@ while True:
     cv2.putText(frame, status_text, (10, frame.shape[0] - 20), cv2.FONT_HERSHEY_SIMPLEX, 0.8, status_color, 2)
 
     # Uncomment the line below to show the camera feed window
-    cv2.imshow("Detection", frame)
+    #cv2.imshow("Detection", frame)
     cv2.waitKey(1)
     
     # -------------------------- Frame Rate Control ------------------------- #

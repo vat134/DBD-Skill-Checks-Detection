@@ -8,12 +8,12 @@ This project is intended for research and educational purposes in the field of p
 Using it may violate game rules and trigger anti-cheat detection. The author is not responsible for any consequences resulting from its use, this includes bans or any other unspecified violations. Use at your own risk.
 
 ## Description
-This script is designed for automatic detection and reaction to “white zones” (skill checks) in the game Dead by Daylight using computer vision.
-It uses a camera to capture the image, highlights areas of interest, and automatically presses a key if the cursor overlaps a stable white zone.
+This script is designed for automatic detection and reaction to “white zones” (skill checks) in the game Dead by Daylight using computer vision working with color.
+It uses a camera to capture the image, highlights areas of interest, and detect if the cursor overlaps a stable white zone.
 
 ## Author's Note
-With the right settings, almost all skill check actions are performed, and I don't even have to worry about it. 
-V6.2 It produces better results than I do, which is why I started writing this code.
+With the right settings, almost all skill check actions are performed.
+V6.2
 My observations:
 - perfect skill check 80%
 - simple skill check 15%
@@ -30,12 +30,11 @@ My observations:
 
 ## Key Features
 - Detection of the red cursor and white zones in the camera feed.
-- Automatic key press (default — Space) when the cursor overlaps a stable white zone.
 - Real-time visualization of detected and stable zones.
 - Filtering of false positives through zone history analysis (stability check).
 - Multithreaded processing: frame capture and processing are performed in parallel for high performance.
 - Morphological operations to improve zone detection accuracy and reduce noise.
-- Flexible parameter adjustment (zone sizes, stability frame count, tolerances).
+- Flexible parameter adjustment (zone sizes, frame count, tolerances).
 
 ## Advantages & Improvements
 - **Multithreading**: ensures high FPS and responsive interface.
