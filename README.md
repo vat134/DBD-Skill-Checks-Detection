@@ -1,4 +1,4 @@
-# DBD Skill Checks Detection — README
+<img width="640" height="389" alt="изображение" src="https://github.com/user-attachments/assets/c984ed04-6b24-466f-8b04-10bbda3cd6e1" /># DBD Skill Checks Detection — README
 \*README for a V6.2\*
 
 ## Disclaimer
@@ -21,12 +21,11 @@ My observations:
 
 ## How It Looks
 
-<img width="638" height="388" alt="изображение" src="https://github.com/user-attachments/assets/07c30ff3-7f20-4fd8-b977-9f22db716098" />
-<img width="604" height="369" alt="изображение" src="https://github.com/user-attachments/assets/77886aa4-7639-4ffb-9d00-9082d8b7140c" />
-<img width="603" height="368" alt="изображение" src="https://github.com/user-attachments/assets/2c6facce-96dd-4f34-a362-e1c9199ec15e" />
-<img width="605" height="366" alt="изображение" src="https://github.com/user-attachments/assets/3351f7bc-b579-4fe6-88f6-b6275883645d" />
-
-
+<img width="640" height="389" alt="изображение" src="https://github.com/user-attachments/assets/59bca4f2-c63e-4915-98b2-b43602cf2b83" />
+<img width="640" height="390" alt="изображение" src="https://github.com/user-attachments/assets/2f9f0930-15cd-4bfb-9348-d33d8a24f7b3" />
+<img width="603" height="369" alt="изображение" src="https://github.com/user-attachments/assets/fa192128-fede-4e8b-8413-019ae04cada4" />
+<img width="602" height="368" alt="изображение" src="https://github.com/user-attachments/assets/0c14af93-4d7d-43d2-8153-2f516b20b05b" />
+<img width="604" height="372" alt="изображение" src="https://github.com/user-attachments/assets/876361c1-f093-4e15-a6cf-985ac38c7cb1" />
 
 ## Key Features
 - Detection of the red cursor and white zones in the camera feed.
